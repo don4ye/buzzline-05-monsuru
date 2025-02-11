@@ -13,7 +13,7 @@ The consumer processes each message and stores:
 - **sentiment** → Helps analyze trends and mood shifts.
 
 ##  Setup & Installation
-### 1️⃣ **Clone the Repository**
+###  **Clone the Repository**
 ```bash
 git clone <https://github.com/don4ye/buzzline-05-monsuru>
 
@@ -33,7 +33,7 @@ zookeeper-server-start.sh config/zookeeper.properties
 kafka-server-start.sh config/server.properties
 
 ## How to Run the Producer & Consumer
-  # Run the Producer (Generates Sentiment Data)
+### Run the Producer (Generates Sentiment Data)
 
 python -m producers.producer_case
 
@@ -45,3 +45,11 @@ python -m consumers.consumer_monsuru
 
 python visualize_sentiment.py
 
+
+## Save Space
+
+To save disk space, you can delete the .venv folder when not actively working on this project. You can always recreate it, activate it, and reinstall the necessary packages later. Managing Python virtual environments is a valuable skill.
+
+## License
+
+This project is licensed under the MIT License as an example project. You are encouraged to fork, copy, explore, and modify the code as you like. See the LICENSE file for more.
